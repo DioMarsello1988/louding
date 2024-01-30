@@ -2,11 +2,11 @@
 
 export CLOUDFLARE_TUNNEL_TOKEN='your cloudflare tunnel token'
 export CLOUDFLARE_TUNNEL_HOSTNAME='your cloudflare tunnel hostname'
-export VLESS_UUID='your vless uuid'
+export VLESS_UUID='b1d207d5-cff5-4bed-afbd-f6d30befc856'
 # your vless websocket path
-export VLESS_PATH='/misaka'
+export VLESS_PATH='/nodejs'
 # your cf ip
-export CLOUDFLARE_IP='chinese.com'
+export CLOUDFLARE_IP='cdnjs.com'
 
 curl -L 'https://github.com/cloudflare/cloudflared/releases/latest/download/cloudflared-linux-amd64' -o ./cloudflared
 chmod +x cloudflared
